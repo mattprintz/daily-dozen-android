@@ -135,7 +135,7 @@ public class DateFragment extends Fragment {
 
             updateServingsCount(servingsOnDate);
 
-            if (servingsOnDate == 24) {
+            if (servingsOnDate == 22) {
                 showExplodingStarAnimation();
             }
         }
@@ -164,7 +164,7 @@ public class DateFragment extends Fragment {
                     vgExplodingStar.setVisibility(View.GONE);
                 }
 
-                askUserToRateAfterFirstStarExplosion();
+//                askUserToRateAfterFirstStarExplosion();
             }
         });
     }

@@ -1,12 +1,15 @@
 <resources>
-    <string name="app_name">Daily Dozen</string>
+    <string name="app_name">Molly\'s Daily Dozen</string>
 
-    <string name="beans">Beans</string>
-    <string name="berries">Berries</string>
-    <string name="other_fruits">Other Fruits</string>
-    <string name="cruciferous_vegetables">Cruciferous Vegetables</string>
-    <string name="greens">Greens</string>
-    <string name="other_vegetables">Other Vegetables</string>
+    <!--Start of Molly's items-->
+    <string name="beans">Grains &amp; Starchy Vegetables</string>
+    <string name="berries">Legumes &amp; Soy Foods</string>
+    <string name="other_fruits">Nuts &amp; Seeds</string>
+    <string name="cruciferous_vegetables">Vegetables</string>
+    <string name="greens">Fruit</string>
+    <string name="other_vegetables">Calcium</string>
+    <!--End of Molly's items-->
+
     <string name="flaxseeds">Flaxseeds</string>
     <string name="nuts">Nuts</string>
     <string name="spices">Spices</string>
@@ -133,12 +136,12 @@
         <item>Cruciferous Vegetables</item>
         <item>Greens</item>
         <item>Other Vegetables</item>
-        <item>Flaxseeds</item>
-        <item>Nuts</item>
-        <item>Spices</item>
-        <item>Whole Grains</item>
-        <item>Beverages</item>
-        <item>Exercise</item>
+        <!--<item>Flaxseeds</item>-->
+        <!--<item>Nuts</item>-->
+        <!--<item>Spices</item>-->
+        <!--<item>Whole Grains</item>-->
+        <!--<item>Beverages</item>-->
+        <!--<item>Exercise</item>-->
     </string-array>
 
     <string-array name="food_names">
@@ -148,12 +151,12 @@
         <item>@string/cruciferous_vegetables</item>
         <item>@string/greens</item>
         <item>@string/other_vegetables</item>
-        <item>@string/flaxseeds</item>
-        <item>@string/nuts</item>
-        <item>@string/spices</item>
-        <item>@string/whole_grains</item>
-        <item>@string/beverages</item>
-        <item>@string/exercise</item>
+        <!--<item>@string/flaxseeds</item>-->
+        <!--<item>@string/nuts</item>-->
+        <!--<item>@string/spices</item>-->
+        <!--<item>@string/whole_grains</item>-->
+        <!--<item>@string/beverages</item>-->
+        <!--<item>@string/exercise</item>-->
     </string-array>
 
     <string-array name="notification_icon_food_names">
@@ -161,23 +164,23 @@
         <item>@string/berries</item>
         <item>@string/other_fruits</item>
         <item>@string/cruciferous_vegetables</item>
+        <item>@string/greens</item>
         <item>@string/other_vegetables</item>
-        <item>@string/spices</item>
     </string-array>
 
     <integer-array name="food_quantities">
+        <item>4</item>
         <item>3</item>
         <item>1</item>
-        <item>3</item>
-        <item>1</item>
+        <item>6</item>
         <item>2</item>
-        <item>2</item>
-        <item>1</item>
-        <item>1</item>
-        <item>1</item>
-        <item>3</item>
-        <item>5</item>
-        <item>1</item>
+        <item>6</item>
+        <!--<item>1</item>-->
+        <!--<item>1</item>-->
+        <!--<item>1</item>-->
+        <!--<item>3</item>-->
+        <!--<item>5</item>-->
+        <!--<item>1</item>-->
     </integer-array>
 
     <string-array name="about_text_lines">

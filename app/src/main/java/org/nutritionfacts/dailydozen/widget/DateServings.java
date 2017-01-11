@@ -63,9 +63,9 @@ public class DateServings extends LinearLayout {
     }
 
     public void setServings(final int servingsOnDate) {
-        tvStar.setVisibility(servingsOnDate == 24 ? VISIBLE : GONE);
+        tvStar.setVisibility(servingsOnDate == 22 ? VISIBLE : GONE);
 
-        setSubHeader(String.format("%s out of 24   {fa-bar-chart 20dp @color/gray_dark}", servingsOnDate));
+        setSubHeader(String.format("%s out of 22   {fa-bar-chart 20dp @color/gray_dark}", servingsOnDate));
     }
 
     @OnClick(R.id.sub_header)
